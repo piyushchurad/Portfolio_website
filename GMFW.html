@@ -16,6 +16,8 @@
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+		<link href="path/to/lightbox.css" rel="stylesheet">
+		<link rel="stylesheet" href="assets/css/lightbox.min.css">
 	</head>
 	<body>
 
@@ -44,10 +46,9 @@
 									<header class="main">
 										<h2><a href="Work.html">WORK</a> / <a href="Work.html">Enterprise UX</a> / Google Maps For Work </h2>
 									</header>
-
-									<span class="image main"><img src="images/GMFW3.jpg" alt="" /></span>
-									<span class="image main"><img src="images/GMFW4.jpg" alt="" /></span>
-									<span class="image main"><img src="images/GMFW5.jpg" alt="" /></span>
+									<a class="example-image-link" href="images/GMFW3.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><span class="image main"><img src="images/GMFW3.jpg" alt="" /></span></a>
+									<a class="example-image-link" href="images/GMFW4.jpg" data-lightbox="example-set" data-title="Or press the right arrow on your keyboard."><span class="image main"><img src="images/GMFW4.jpg" alt="" /></span></a>
+									<a class="example-image-link" href="images/GMFW5.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><span class="image main"><img src="images/GMFW5.jpg" alt="" /></span></a>
 
 									<ul class="actions">
 												<li><a href="APPORBIT.html" class="button">Next Project</a></li>
@@ -164,6 +165,8 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
+			<script src="path/to/lightbox.js"></script>
+			<script src="assets/js/lightbox-plus-jquery.min.js"></script>
 
 	</body>
 </html>
